@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <form action="{% url 'index' %}" method="POST">
+        {% csrf_token %}
+        <div>
+            <label for="start">시작</label>
+            <input type="text" name="start">
+        </div>
+        <div>
+            <label for="end">끝</label>
+            <input type="text" name="end">
+        </div>
+
+        <div>
+            <label for="voca">개수</label>
+            <input type="text" name="voca">
+        </div>
+        <input type="submit" value="제출">
+    </form>
+    
+    <table border="1">
+        <th style="width: 150px;">단어</th>
+        <th style="width: 150px;">뜻</th>
+        {% for i in testlist %}
+        <tr>
+            <td>{{i}}</td>
+            <td></td>
+        </tr>
+        {% endfor %}
+
+    </table>
+</body>
+
+</html>
