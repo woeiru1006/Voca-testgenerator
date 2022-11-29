@@ -43,7 +43,7 @@ def get_dataset_filepath(dir_path: str = None, support_extensions: [str] = None)
     return filepaths
 
 
-def parse_csv_data(full_filepath: str) -> list[dict[str | list[str]]]:
+def parse_csv_data(full_filepath: str) -> list[dict[str or list[str]]]:
     """
     Parse the CSV data of `full_filepath`.
     Example Args:
@@ -79,7 +79,7 @@ def parse_csv_data(full_filepath: str) -> list[dict[str | list[str]]]:
     return data
 
 
-def parse_string_data(raw_input: str) -> list[dict[str | list[str]]]:
+def parse_string_data(raw_input: str) -> list[dict[str or list[str]]]:
     """
     Parse the raw string which is similar to CSV format.
     Not guaranty operation well.
