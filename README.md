@@ -1,3 +1,5 @@
+![Django CI](https://github.com/joonparkhere/Voca-testgenerator/actions/workflows/django.yml/badge.svg)
+
 ## <div id = "toc">Table of Contents</div>
 
 - [Overview](#overview)
