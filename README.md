@@ -96,10 +96,10 @@ There are many ways in which you can give feedback in this application.
 
 There are many ways in which you can contribute in this application.
 
-- Report bugs or Request a new feature by [making new issues](issues).
-- Review source code changes in [pull requests](pulls).
-- Provide new sets of foreign language words and [make pull requests](pulls).
-- Review or translate documentation and [make pull requests](pulls).
+- Report bugs or Request a new feature by [making new issues](https://github.com/jmhee28/Voca-testgenerator/issues).
+- Review source code changes in [pull requests](https://github.com/jmhee28/Voca-testgenerator/pulls).
+- Provide new sets of foreign language words and [make pull requests](https://github.com/jmhee28/Voca-testgenerator/pulls).
+- Review or translate documentation and [make pull requests](https://github.com/jmhee28/Voca-testgenerator/pulls).
 
 ## <div id = "collaborators">Key Collaborators</div>
 | Name |        Email         |                    GitHub ID                    |                   Role                   |
@@ -114,4 +114,4 @@ Licensed under [MIT](https://opensource.org/licenses/MIT).
 
 ## <div id = "coc">Code of Conduct</div>
 
-As a contributor, you can help us keep our application open and inclusive. Please read and follow our [Code of Conduct](CODE_OF_CONDUCT.md).
+As a contributor, you can help us keep our application open and inclusive. Please read and follow our [Code of Conduct](CODE_OF_CONDUCT).
